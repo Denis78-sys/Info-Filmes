@@ -47,11 +47,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extend(config, { isClient }) {
-      if (isClient) {
-        config.output.publicPath = '.nuxt/dist/_nuxt/';
-      }
-    },
   },
 
   /*   server: {
