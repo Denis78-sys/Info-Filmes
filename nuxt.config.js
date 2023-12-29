@@ -49,6 +49,7 @@ export default {
   build: {
   },
 
+  buildDir: 'dist'
   /*   server: {
     host: "0.0.0.0",
   },   */
